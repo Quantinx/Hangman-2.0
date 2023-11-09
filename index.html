@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Extreme Hangman</title>
+  </head>
+  <body>
+    <div class="site-container">
+      <div class="game-end" id="gameEnd">
+        <div class="game-end-content" id="gameEndContent">You win!</div>
+        <a href="">Play again</a>
+      </div>
+      <div class="game-container">
+        <form class="game-input" id="mainForm" autocomplete="off">
+          <input type="text" class="input" id="letterGuess" />
+          <button class="game-button" id="guessButton">Guess</button>
+        </form>
+        <div class="game-output" id="feedback">Guess your letter above!</div>
+        <div class="game-output" id="wordArea">
+          correclty guessed letters here
+        </div>
+        <div class="game-output" id="letterArea">_</div>
+        <img
+          class="game-image"
+          id="stateImage"
+          src="media/0.jpg"
+          height="200"
+          width="200"
+        />
+        <div class="game-output" id="correctWord"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!--images from Author: Marc Oliveras
+Email: admin@oligalma.com
+Website: http://oligalma.com-->

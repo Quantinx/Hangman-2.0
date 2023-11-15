@@ -4,7 +4,7 @@ const url =
 const options = {
   method: "GET",
   headers: {
-    "X-RapidAPI-Key": "933dd869dfmshf1f3a072ed514c8p10f195jsnb79edd185c2b",
+    "X-RapidAPI-Key": "REDACTED",
     "X-RapidAPI-Host": "random-word-by-api-ninjas.p.rapidapi.com",
   },
 };
